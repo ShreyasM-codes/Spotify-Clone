@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify"> Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Playlist 1 - No copyrights Involved</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="cover1.jpg" alt="1">
+                    <span>Believer - Imagine Dragons</span>
+                    <span class="songlistplay"><span class="timeStamp">02:34 <i class="fa-solid fa-play-circle"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="cover1.jpg" alt="1">
+                    <span>Alone - Alan Walker</span>
+                    <span class="songlistplay"><span class="timeStamp">04:24 <i class="fa-solid fa-play-circle"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="cover1.jpg" alt="1">
+                    <span>Toofan - KGF</span>
+                    <span class="songlistplay"><span class="timeStamp">04:14 <i class="fa-solid fa-play-circle"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="cover1.jpg" alt="1">
+                    <span>Mehabooba - KGF</span>
+                    <span class="songlistplay"><span class="timeStamp">02:30 <i class="fa-solid fa-play-circle"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="cover1.jpg" alt="1">
+                    <span>Gagana nee - KGF</span>
+                    <span class="songlistplay"><span class="timeStamp">05:02 <i class="fa-solid fa-play-circle"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="cover1.jpg" alt="1">
+                    <span>Joker </span>
+                    <span class="songlistplay"><span class="timeStamp">04:24 <i class="fa-solid fa-play-circle"></i></span></span>
+                </div>
+
+                <div class="songItem">
+                    <img src="cover1.jpg" alt="1">
+                    <span>Monster - KGF</span>
+                    <span class="songlistplay"><span class="timeStamp">04:54 <i class="fa-solid fa-play-circle"></i></span></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-3x fa-backward-step"></i>
+            <i class="fa-solid fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward-step"></i>
+        </div>
+
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="song playing" id="gif"> Believer - Imagine Dragons
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/cd1f4b852b.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
